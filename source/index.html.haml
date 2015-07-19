@@ -1,0 +1,66 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}
+      %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}
+        %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
+          %meta{:content => "", :name => "description"}
+            %meta{:content => "", :name => "author"}
+              %link{:href => "http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css", :rel => "stylesheet", :type => "text/css"}
+                %link{:href => "http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic", :rel => "stylesheet", :type => "text/css"}
+
+%header.intro-header{:style => "background-image: url('images/background.jpg')"}
+  .container
+    .row
+      .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+        .site-heading
+          %h2 My name is
+          %h1 Brice Francisco
+          %hr.small
+            %span.subheading Let me, somehow impress you.
+          %ul.pager
+            %li.next
+              %a{:href => "portfolio.html"} Projects
+.container
+  %section.clearfix
+    .g.span-6
+      .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+        %h2.post-title
+          What I do.
+        %hr
+        %p 
+          Now, I'm currently learning more about Ruby on Rails and starting to like it.
+        %p
+          I've started to job hunt again this month so if you are in a company that needs people like me don't hesitate to
+          = succeed "." do
+            %a{:href => "contact.html"} contact me
+          or if you want to see my projects first try clicking the Project button.
+    .g.span-6.last
+      .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+        %h2.post-title
+          Who I am.
+        %hr
+        %p I love web development and currently learning more about it, living in Manila, Philippines with a passion of learning new ideas and concepts.
+        %p If I'm away from doing webly things, I love playing games, Spicy foods and dogs!
+%hr
+
+%footer
+  .container
+    .row
+      %ul.list-inline.text-center
+        %li
+          %a{:href => "https://ph.linkedin.com/pub/brice-john-francisco/b2/a85/6a3"}
+            %span.fa-stack.fa-lg
+              %i.fa.fa-circle.fa-stack-2x
+              %i.fa.fa-linkedin.fa-stack-1x.fa-inverse
+        %li
+          %a{:href => "https://www.facebook.com/breeehappy"}
+            %span.fa-stack.fa-lg
+              %i.fa.fa-circle.fa-stack-2x
+              %i.fa.fa-facebook.fa-stack-1x.fa-inverse
+        %li
+          %a{:href => "https://www.github.com/br333"}
+            %span.fa-stack.fa-lg
+              %i.fa.fa-circle.fa-stack-2x
+              %i.fa.fa-github.fa-stack-1x.fa-inverse
+  %p.copyright.text-muted Copyright &copy; Brice Francisco 2015

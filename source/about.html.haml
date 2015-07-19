@@ -1,0 +1,115 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}
+      %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}
+        %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
+          %meta{:content => "", :name => "description"}
+            %meta{:content => "", :name => "author"}
+              %link{:href => "http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css", :rel => "stylesheet", :type => "text/css"}
+                %link{:href => "http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic", :rel => "stylesheet", :type => "text/css"}
+%header.intro-header{:style => "background-image: url('images/about.jpg')"}
+  .container.clearfix
+    .row
+      .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+        .site-heading
+          %hr.small
+          %h1 About Myself
+          %hr.small
+            %span.subheading When i was a kid we had our first computer by that time we don't have internet, the first application that i'd opened was paint and start drawing bunch of stuff but i've never successfully developed my drawing skills. When i entered high school that was the first time i experience using computer with an internet and that is the time that i told myself that "I want to do make websites"
+%hr
+
+.container
+  %section.clearfix
+    .g.span-6
+      .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+        %span.fa-stack.fa-lg
+          %i.fa.fa-circle.fa-stack-2x
+          %i.fa.fa-graduation-cap.fa-stack-1x.fa-inverse
+        %h2.post-title
+          Education.
+        %hr
+        %p 
+          By year 2011 I started my Bachelor degree in Information Systems at 
+          = succeed "," do
+            %a{:href => "https://tup.edu.ph"} Technological University of the Philippines
+          I'm happy that i took that course, I learned more about Technologies, Management and also Programming. And on a pleasant morning in March 2015, after 4 years of hard work, stress, late night sleeps & hangouts I graduated.
+        %p I learned a lot, my degree focuses on Management of I.T, Project Management and Software Development Life Cycle.
+        %p While learning those subjects, I discovered my heart burning will in web development, even though my degree doesn't taught me huge amounts about the web and its industry, I've managed to learn it by myself. Fast learner, risk taker and self reliant, those are what i loved about myself.
+    .g.span-6.last
+      .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+        %span.fa-stack.fa-lg
+          %i.fa.fa-circle.fa-stack-2x
+          %i.fa.fa-desktop.fa-stack-1x.fa-inverse
+        %h2.post-title
+          Experience.
+        %hr
+        %p 
+          While on my journey to graduation, I had a 5 months on the job training at 
+          = succeed "." do 
+            %a{:href => "https://itechglobal.com.ph"} iTech Business Global Solutions
+        %p I was assigned as a web programmer together with my thesis mates and started to work with projects which is more focused on using PHP, MySQL, HTML, and CSS.
+        %p Prior to that I'd started to enter the world of freelancers but stopped because I realized that I need to learn more about the industry.
+%hr
+  %section.clearfix
+    .d.span-7
+      = image_tag ("images/diamond.png")
+    .d
+      %hr.small
+      %h2 
+        About this Website.
+      %hr.small
+      %hr
+        .g.span-6
+          .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+            %p 
+              This site was build in 
+              = succeed "," do
+                %a{:href => "https://middlemanapp.com/"} Middleman app
+              = succeed "," do
+                %a{:href => "https://haml.info"} Haml
+              = succeed "" do
+                %a{:href => "https://fortawesome.github.io/Font-Awesome"} Font Awesome
+              and customized 
+              = succeed " " do
+                %a{:href => "https://github.com/twbs/bootstrap"} bootstrap
+              for better coding and view.
+
+
+        .g.span-6.last
+          .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+            %p 
+              I used photoshop for the shades of the pictures. The pictures that are in
+              = succeed "," do
+                %a{:href => "http://unsplash.com"} Home
+              = succeed "," do
+                %a{:href => "https://www.behance.net/gallery/27529721/Mens-Health-read-before-you-dive-in"} About me
+              = succeed " " do
+                %a{:href => "https://www.unsplash.com"} Contact me
+              and in
+              = succeed " " do
+                %a{:href => ""} Projects
+              are from those cool guys in behance and unsplash who share their art works and photographs.
+%hr
+
+%footer
+  .container
+    .row
+      %ul.list-inline.text-center
+        %li
+          %a{:href => "https://ph.linkedin.com/pub/brice-john-francisco/b2/a85/6a3"}
+            %span.fa-stack.fa-lg
+              %i.fa.fa-circle.fa-stack-2x
+              %i.fa.fa-linkedin.fa-stack-1x.fa-inverse
+        %li
+          %a{:href => "https://www.facebook.com/breeehappy"}
+            %span.fa-stack.fa-lg
+              %i.fa.fa-circle.fa-stack-2x
+              %i.fa.fa-facebook.fa-stack-1x.fa-inverse
+        %li
+          %a{:href => "https://www.github.com/br333"}
+            %span.fa-stack.fa-lg
+              %i.fa.fa-circle.fa-stack-2x
+              %i.fa.fa-github.fa-stack-1x.fa-inverse
+  %p.copyright.text-muted Copyright &copy; Brice Francisco 2015
+
